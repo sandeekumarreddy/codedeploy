@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: ./home.phtml
+   source: /home.phtml
    destination: /var/www/html/morselo/app/design/frontend/morselo/default/template/page   
 permissions:
   - object: /var/www/html/morselo/app/design/frontend/morselo/default/template/page
