@@ -2,19 +2,19 @@ version: 0.0
 os: linux
 files:
    source: /home.phtml
-   destination: /var/www/html/morselo/app/design/frontend/morselo/default/template/page   
+   destination: /opt/codetest  
 permissions:
-  - object: /var/www/html/morselo/app/design/frontend/morselo/default/template/page
+  - object: /opt/codetest
     pattern: "**"
-    owner: www-data
-    group: www-data
+    owner: root
+    group: root
     mode: 664 
     type:
       - file
-  - object: /var/www/html/morselo/app/design/frontend/morselo/default/template/page
+  - object: /opt/codetest
     pattern: "**"
-    owner: www-data
-    group: www-data
+    owner: root
+    group: root
     mode: 775
     type:
       - directory
