@@ -1,13 +1,12 @@
 version: 0.0
 os: linux
 files:
- - source /index.phtml
-     destination: /opt/
- permission: 
-    -object: /opt/
-    pattern: "**"
-    except: [opt/ReadMe.txt]
-    owner: root
-    group: root
-    mode: 777
-    - file
+ - source /
+     destination: /home/ubuntu/
+
+
+
+
+
+
+
